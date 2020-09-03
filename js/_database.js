@@ -1,5 +1,5 @@
 const pg = require('pg')
-
+//config
 const client = new pg.Client({
   user: 'postgres',
   host: 'localhost',
